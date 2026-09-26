@@ -60,4 +60,4 @@
 
 | 项目 | 当前事实 | 下一步 |
 |---|---|---|
-| OPC 个人与企业 AI 效率平台 | GitHub Issue [#11](https://github.com/President-Office/project-time-management/issues/11) 仍开放；`Business-Unit-for-OPC` 组织和 `requirements` 仓库尚未创建。 | 先确认组织创建、需求仓库边界、个人/企业/客户数据隔离和证据链要求，再决定是否纳入 Q1/Q2。 |
+| OCP 个人与企业 AI 效率平台 | GitHub Issue [#11](https://github.com/President-Office/project-time-management/issues/11) 仍开放；`Business-Unit-for-OCP` 组织和 `requirements` 仓库尚未创建。 | 先确认组织创建、需求仓库边界、个人/企业/客户数据隔离和证据链要求，再决定是否纳入 Q1/Q2。 |

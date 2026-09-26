@@ -26,4 +26,4 @@
 
 ## 待创建组织
 
-- [Business-Unit-for-OPC](https://github.com/President-Office/project-time-management/issues/11)：当前尚未创建组织或 `requirements` 仓库，详见开放 Issue [#11](https://github.com/President-Office/project-time-management/issues/11)。
+- [Business-Unit-for-OCP](https://github.com/President-Office/project-time-management/issues/11)：当前尚未创建组织或 `requirements` 仓库，详见开放 Issue [#11](https://github.com/President-Office/project-time-management/issues/11)。

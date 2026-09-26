@@ -2,7 +2,7 @@
 
 > 用于每周判断先做什么。副业和本职工作仍然分开看：副业决定时间投入，本职工作只决定跟进顺序。
 
-> 2026-08-17 已同步项目状态：高考优先级下调；新粮合同待签；AI 数字人 / 视频生成受 Image Token 阻塞；Platform 当前聚焦固化 Yudao 能力。本职工作已拆分为独立跟进项。
+> 2026-09-26 已同步项目状态：组织仓库清单已刷新；高考优先级下调；新粮合同待签；AI 数字人 / 视频生成受 Image Token 阻塞；Platform 当前聚焦固化 Yudao 能力。本职工作已拆分为独立跟进项。
 
 ## 判断标准
 
@@ -55,3 +55,9 @@
 3. 当前副业 Q1 仍为 Blue Parrot 与 MCN/KOL ERPNext；本职工作与副业分别排序，不相互挤占分类。
 4. 高考已下调至 Q2；新粮在合同签署前保持 Q2；AI 数字人 / 视频生成在 Image Token 问题解决前标记为受阻 Q2。
 5. Platform 当前以固化 Yudao 能力为重点；Enterprise Service 继续留在副业 Q2，与主业 AI 平台分开复盘。
+
+## 待排定项目 / 开放任务
+
+| 项目 | 当前事实 | 下一步 |
+|---|---|---|
+| OPC 个人与企业 AI 效率平台 | GitHub Issue [#11](https://github.com/President-Office/project-time-management/issues/11) 仍开放；`Business-Unit-for-OPC` 组织和 `requirements` 仓库尚未创建。 | 先确认组织创建、需求仓库边界、个人/企业/客户数据隔离和证据链要求，再决定是否纳入 Q1/Q2。 |

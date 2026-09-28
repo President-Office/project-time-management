@@ -49,7 +49,7 @@
 | 负责人跟进 | AML Agentic AI | 由 George 负责，方案调整为 Azure Function。 | 跟进 Azure Function 方案、所需文档和后续交付节点。 |
 | 负责人跟进 | SnapOne（原主业 AI 平台） | 已改名 SnapOne，由 Dennis 跟进。 | 由 Dennis 确认当前阶段、UAT 范围和下一节点。 |
 | 负责人跟进 | FE Skill Building | 由 Conor 负责。 | 由 Conor 跟进扫描范围、输出和后续行动。 |
-| 暂停 | ADF | 当前暂停。 | 保留状态记录，解除暂停后再评估。 |
+| On hold | Azure Data Factory (ADF) | 当前 On hold，不列入当前主要工作投入。 | 解除 On hold 后再重新评估。 |
 
 ## 本周建议
 

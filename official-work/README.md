@@ -14,7 +14,7 @@
 | SnapOne（原主业 AI 平台） | Dennis | 主业 AI 平台已改名为 SnapOne，由 Dennis 跟进。 | 工具清单、客户价值、共性能力、订阅边界和路线图由 Dennis 继续确认。 | 只保留必要跟进，确认 SnapOne 的阶段状态、UAT 范围和后续责任。 |
 | AML Agentic AI | George | 方案调整为 Azure Function，由 George 负责推进。 | Azure Function 方案、上 PROD 流程和所需文档仍需确认。 | 跟进 George 的方案状态、文档模板、共享文件夹和后续上线节点。 |
 | FE Skill Building | Conor Zhou | 由 Conor 负责。 | 扫描范围、输出形式、优先级和后续 owner 由 Conor 确认。 | 保留必要协作，不作为当前主要工作投入。 |
-| ADF | Future, George | 用于 IaaS 到 PaaS 的数据同步，通过 pipeline 完成。 | 暂停。 | 确认账号申请责任人、审批路径、最新状态和可行替代方案。 |
+| Azure Data Factory (ADF) | Future, George | 用于 IaaS 到 PaaS 的数据同步，通过 pipeline 完成。 | On hold，不列入当前主要工作投入。 | 解除 On hold 后再重新评估账号申请责任人、审批路径、最新状态和可行替代方案。 |
 
 ## 本周重整顺序
 
@@ -22,7 +22,7 @@
 2. **跟进 AML Agentic AI**：关注 George 的 Azure Function 方案、上 PROD 流程和文档闭环。
 3. **保留 SnapOne 跟进**：由 Dennis 主责，必要时确认 UAT、工具清单和路线图状态。
 4. **保留 FE Skill Building 协作**：由 Conor 主责，不作为当前主要工作投入。
-5. **ADF 保持暂停跟进**：仅确认账号申请责任人、审批路径、最新状态和替代方案；解除暂停前不排入交付承诺。
+5. **Azure Data Factory (ADF) 保持 On hold**：当前不安排投入；解除 On hold 后再重新评估账号申请责任人、审批路径、最新状态和替代方案。
 
 ## 跟进规则
 

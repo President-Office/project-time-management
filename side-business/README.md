@@ -2,13 +2,15 @@
 
 用于管理 赵凯 的副业、创业、业务单元和个人项目组合。
 
-> 2026-09-26 已按 GitHub 当前状态刷新仓库概况；这里只保留 live organization/repo，不记录已删除项。
+> 2026-09-28 已按当前项目边界修正 OPC/OCP；这里只保留 live organization/repo，不记录已删除项。
 
 > AI 软件工厂 / youlidao.ai 由 `Business-Unit-for-AI-Platform` 主责产品和业务，`Business-Unit-for-Platform` 提供 Clone、Codegen 与工程底座。
 
 > Enterprise Service 是副业中的对外客户技术赋能业务。它不是正式工作中的主业项目，也不是内部共享服务中心。
 
 > Enterprise Service 的会议背景、合作模式、数据边界和待确认事项见 [Enterprise Service 副业项目跟进](enterprise-service.md)。
+
+> OPC 是个人创业项目，当前暂时搁置；保留项目记录，但不占用当前主攻投入，也不与本职工作的 OCP 混用。
 
 ## 项目列表
 
@@ -21,6 +23,7 @@
 | AI 数字人 / 视频生成 | Q2 重要不紧急（受阻） | 赵凯、赵杨 | AI 视频与直播工具链 | API 聚合 / 自动化脚本 | [Business-Unit-for-Video](https://github.com/Business-Unit-for-Video) | 20 live repos，其中 12 个私有仓库：`requirements`、`deploy`、`Video2Text`、`Text-Image2Video`、`video-solution`、`VideoConvt2English`、`authorized-media-publisher`、`video-to-minnan` 等。当前受 Image Token 缺口阻塞；先明确 Token 获取、预算、授权和替代方案后再安排内容/直播交付。 |
 | AI 债务健康检查管理系统 | Q2 重要不紧急 | 赵凯、赵杨 | Vue / Vben Admin | RuoYi-Vue-Pro / Spring Boot | [Business-Unit-for-Debet](https://github.com/Business-Unit-for-Debet) | 7 live repos：`requirements`、`deploy`、`debet-admin-backend`、`debet-customer-portal-vben`、`debet-deploy`、`frontend-selection`。保留产品闭环和 AI 初筛能力，当前优先级低于 MCN/KOL。 |
 | AI 软件工厂 / youlidao.ai | Q2 重要不紧急 | 赵凯 / 相关业务负责人 | 按业务场景定 | 平台/AI/自动化能力 | [Business-Unit-for-AI-Platform](https://github.com/Business-Unit-for-AI-Platform) | 11 live repos，其中 5 个私有仓库：`requirements`、`deploy`、`knowledge-base`、`platform-roadmap`、`sub2api`、`ai-industry-monitor`。AI Platform 主责副业产品 youlidao.ai 的订阅和工具聚合，Platform 提供工程底座；不与正式工作的主业 AI 平台混称。 |
+| OPC 创业项目 | Q4 不重要不紧急（暂缓） | 赵凯 | 待定 | 待定 | [Business-Unit-for-OPC](https://github.com/President-Office/project-time-management/issues/11) | 当前暂时搁置，尚未创建组织或 `requirements` 仓库；恢复前先重新确认方向、客户验证、投入上限和启动条件。 |
 | Enterprise Service 客户技术赋能 | Q2 重要不紧急 | 赵凯 / 相关业务负责人 | 按客户场景定 | AI / 数据 / 自动化 / 系统交付 | [Business-Unit-for-Enterprise-Service](https://github.com/Business-Unit-for-Enterprise-Service) | 9 live repos：`requirements`、`customer-solutions`、`enterprise-service-portal-vben`、政策匹配 Agent/知识库/skills、`service-playbooks`、`project-management`。这是副业中的对外客户业务，不放入 official-work。 |
 | Platform / Yudao 能力固化 | Q2 重要不紧急 | 赵凯 / 相关业务负责人 | Yudao Admin / Vue | Yudao / Spring Boot | [Business-Unit-for-Platform](https://github.com/Business-Unit-for-Platform) | 14 live repos，其中 2 个私有仓库：`requirements`、Clone Bots、`codegen-bot`、`erpnext`、`industry-monitor-core` 和 future 平台底座。当前重点是固化 Yudao 的业务后台、代码生成、克隆重构和可复用交付能力；不单独抢具体业务 Q1。 |
 | 量化交易 | Q2 重要不紧急 | 赵凯、赵杨 | Gin-Vue-Admin / Vue | Gin / Go / Python Quant | [Business-Unit-for-Stock](https://github.com/Business-Unit-for-Stock) | 26 live repos，其中 4 个私有仓库、20 个 forks；核心自有资产为 `requirements`、`deploy`、`stock-knowledge-base`、`stock-research`、`qmt-results`、`plate-rotation-skill`。控制投入节奏，避免把上游仓库数量当成项目进度。 |

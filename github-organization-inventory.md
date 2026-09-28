@@ -24,6 +24,6 @@
 | [Business-Unit-for-Dating](https://github.com/Business-Unit-for-Dating) | 3 | 2 | 0 | `requirements`、`deploy` |
 | [Business-Unit-for-Blue-Parrot](https://github.com/Business-Unit-for-Blue-Parrot) | 4 | 4 | 0 | `requirements`、`bp-backend-service`、`bp-student-app`、`bp-tutor-app` |
 
-## 待创建组织
+## 待创建或暂缓组织
 
-- [Business-Unit-for-OCP](https://github.com/President-Office/project-time-management/issues/11)：当前尚未创建组织或 `requirements` 仓库，详见开放 Issue [#11](https://github.com/President-Office/project-time-management/issues/11)。
+- [Business-Unit-for-OPC](https://github.com/President-Office/project-time-management/issues/11)：OPC 是暂缓的创业项目，当前尚未创建组织或 `requirements` 仓库；详见 Issue [#11](https://github.com/President-Office/project-time-management/issues/11)。

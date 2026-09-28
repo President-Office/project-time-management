@@ -17,14 +17,23 @@ Enterprise Service 当前按对外客户技术赋能业务理解，不定义为�
 - 企业数字化诊断、系统建设、数据分析和流程优化。
 - 与数字集团等合作方形成联合服务或联合交付。
 - 将客户共性需求沉淀为可复用的服务包、工具包和行业方案。
-- 与主业 AI 平台、数据智能、自动化和咨询交付形成协同。
+- 与主业 SnapOne、Data Intelligence、Automation 和 Consulting 形成协同。
+
+当前业务结构包括三个部分：
+
+1. 节能。
+2. 政策。
+3. 信易贷。
+
+现阶段以信易贷为主线；节能和政策作为并行方向维护。
 
 ## 归属与当前状态
 
 - 归属：副业 / 创业项目。
-- 状态：需求澄清 / 合作模式梳理。
-- 当前重点：把会议讨论转化为可跟进的需求项、客户方案和合作边界。
-- 是否参与副业排序：是；当前暂列 Q2，等待结合客户、收入或交付窗口重新确认。
+- 状态：信易贷主线推进，节能和政策并行维护。
+- 当前重点：推进信易贷项目，并明确三个部分之间的客户、数据、交付和复用边界。
+- 是否参与副业排序：是；当前列为 Q1，信易贷完成前不把依赖项目提前解冻。
+- 项目跟进：[Enterprise Service / 信易贷主线跟进 Issue #12](https://github.com/President-Office/project-time-management/issues/12)。
 - 边界：这是对外客户技术赋能业务，不是正式工作中的主业项目，也不是内部共享服务中心。
 
 ## 关键跟进点
@@ -64,7 +73,7 @@ Enterprise Service 当前按对外客户技术赋能业务理解，不定义为�
 
 - 首批目标客户类型。
 - 首批服务包或产品化方向。
-- 与主业 AI 平台的关系。
+- 与主业 SnapOne 的关系。
 - 与 Consulting / Data Intelligence / Automation / AI Platform 的协作边界。
 - 哪些需求应进入 `Business-Unit-for-Enterprise-Service/requirements`。
 
@@ -77,6 +86,8 @@ Enterprise Service 当前按对外客户技术赋能业务理解，不定义为�
 | 明确郭方泽离职后的投入节奏、角色和合规边界 | 郭方泽 | 后续决策记录 / 跟进记录 | 待确认 |
 | 将会议内容拆成 Enterprise Service 需求项 | 待定 | `Business-Unit-for-Enterprise-Service/requirements` | 待开始 |
 | 判断是否需要集团级跨 BU 协同需求 | 待定 | `President-Office/requirements` | 待确认 |
+| 明确信易贷项目的范围、里程碑和验收边界 | 待定 | `Business-Unit-for-Enterprise-Service/requirements` | 进行中 |
+| 梳理节能、政策、信易贷三部分的复用能力和数据边界 | 待定 | `Business-Unit-for-Enterprise-Service/requirements` | 待开始 |
 
 ## 每周检查问题
 

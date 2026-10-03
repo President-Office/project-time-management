@@ -8,6 +8,7 @@ PeterKZhao 的轻量级项目时间管理入口。
 
 - [副业 / 创业项目](side-business/README.md)
   - [Enterprise Service 副业项目跟进](side-business/enterprise-service.md)
+  - [历史创业记录与待验证创意](side-business/idea-backlog.md)
 - [本职工作 / 主业跟进](official-work/README.md)
 - [重要紧急四象限](priority-matrix/README.md)
 - [阅读计划](reading-plan/README.md)

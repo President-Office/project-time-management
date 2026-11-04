@@ -11,22 +11,26 @@
 | 项目 | PIC | 当前状态 / 已知事实 | 当前阻塞 | 本周重新确认或下一步 |
 |---|---|---|---|---|
 | OCP（MCS -> OCP Claim 全生命周期迁移） | Future | 当前主要工作；公司 Claim 全生命周期业务从 MCS 迁移到 OCP，正在持续提供解决方案并整理材料。 | 迁移范围、目标流程、材料版本和评审节点仍需确认。 | 优先确认本周方案版本、评审对象、提交节点及待澄清的 MCS -> OCP 流程边界。 |
-| SnapOne（原主业 AI 平台） | Dennis | 主业 AI 平台已改名为 SnapOne，由 Dennis 跟进。 | 工具清单、客户价值、共性能力、订阅边界和路线图由 Dennis 继续确认。 | 只保留必要跟进，确认 SnapOne 的阶段状态、UAT 范围和后续责任。 |
-| AML Agentic AI | George | 方案调整为 Azure Function，由 George 负责推进。 | Azure Function 方案、上 PROD 流程和所需文档仍需确认。 | 跟进 George 的方案状态、文档模板、共享文件夹和后续上线节点。 |
-| FE Skill Building | Conor Zhou | 由 Conor 负责。 | 扫描范围、输出形式、优先级和后续 owner 由 Conor 确认。 | 保留必要协作，不作为当前主要工作投入。 |
-| Azure Data Factory (ADF) | Future, George | 用于 IaaS 到 PaaS 的数据同步，通过 pipeline 完成。 | On hold，不列入当前主要工作投入。 | 解除 On hold 后再重新评估账号申请责任人、审批路径、最新状态和可行替代方案。 |
 
 ## 本周重整顺序
 
-1. **优先推进 OCP**：围绕 MCS -> OCP Claim 全生命周期迁移，形成当前方案版本、评审节点和待澄清流程边界。
-2. **跟进 AML Agentic AI**：关注 George 的 Azure Function 方案、上 PROD 流程和文档闭环。
-3. **保留 SnapOne 跟进**：由 Dennis 主责，必要时确认 UAT、工具清单和路线图状态。
-4. **保留 FE Skill Building 协作**：由 Conor 主责，不作为当前主要工作投入。
-5. **Azure Data Factory (ADF) 保持 On hold**：当前不安排投入；解除 On hold 后再重新评估账号申请责任人、审批路径、最新状态和替代方案。
+1. **唯一当前主业项目是 OCP**：围绕 MCS -> OCP Claim 全生命周期迁移，形成当前方案版本、评审节点和待澄清流程边界。
+2. 其他历史主业事项保留在下方归档区，不纳入当前工作排期；如重新启动，再恢复到跟进列表并确认负责人和节点。
+
+## 已归档的其他主业事项
+
+以下事项仅从当前跟进与排期中归档，不删除其历史记录；当前主业投入只安排 OCP。
+
+| 项目 | 原 PIC | 归档时保留的状态 |
+|---|---|---|
+| SnapOne（原主业 AI 平台） | Dennis | 曾由 Dennis 跟进；如重启，重新确认阶段、UAT 范围、工具清单和后续责任。 |
+| AML Agentic AI | George | 曾调整为 Azure Function 方案并由 George 推进；如重启，重新确认方案、上线流程和文档状态。 |
+| FE Skill Building | Conor Zhou | 曾由 Conor 负责；如重启，重新确认扫描范围、输出和优先级。 |
+| Azure Data Factory (ADF) | Future, George | 原状态为 On hold；继续保留记录，不纳入当前工作排期。 |
 
 ## 跟进规则
 
 1. 只记录下一步、阻塞和负责人。
 2. 不放公司内部详细材料。
-3. 每周单独检查一次，不影响副业时间分配。
+3. 每周单独检查一次；当前只跟进 OCP，不把已归档事项重新混入主业计划。
 4. 不把 GitHub `Business-Unit-for-*` 副业资产纳入主业产品范围，除非用户明确重新归类。

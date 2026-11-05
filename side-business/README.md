@@ -2,7 +2,7 @@
 
 用于管理 赵凯 的副业、创业、业务单元和个人项目组合。
 
-> 2026-11-04 按最新状态更新。项目历史继续保留；已放弃或归档的项目明确标记状态，不删除历史记录。
+> 2026-11-05 按最新讨论更新。项目历史继续保留；已放弃或归档的项目明确标记状态，不删除历史记录。
 
 > 当前项目状态以项目表为准。`AI 软件工厂 / youlidao.ai` 已放弃并归档；`Business-Unit-for-Platform` 暂时 Hold。
 
@@ -20,8 +20,8 @@
 
 | 项目 | 象限/阶段 | 当前责任人 | 前端框架 | 后端框架 | GitHub Organization | 当前仓库概况 / 备注 |
 |---|---|---|---|---|---|---|
-| 明策数字化 | 当前投标（归属待确认） | 待确认 | 待确认 | 待确认 | 待确认 | 当前最近任务为投标；项目范围、投标截止时间和本人负责内容待补充。 |
-| Blue Parrot 在线教育 | 招聘测试人员 | 赵凯、赵杨、新加坡支持人员 | 学生/导师 App | Backend Service | [Business-Unit-for-Blue-Parrot](https://github.com/Business-Unit-for-Blue-Parrot) | 当前工作是招募测试人员；确认候选人、测试范围、缺陷分流、上线门槛和验收责任。 |
+| 明策数字化 | 赵杨执行，我关键节点评审 | 赵杨（执行）；赵凯（关键节点评审/协助） | 待确认 | 待确认 | 待确认 | 投标执行已交给赵杨；确认提交节点及需要本人评审的材料。 |
+| Blue Parrot 在线教育 | 近期尽快招募测试人员 | 赵凯、赵杨、新加坡支持人员 | 学生/导师 App | Backend Service | [Business-Unit-for-Blue-Parrot](https://github.com/Business-Unit-for-Blue-Parrot) | 用户认为招募测试人员应尽快推进；明确招聘渠道、候选人、测试范围、缺陷分流、上线门槛和验收责任。 |
 | 生涯规划（原高考志愿填报） | Hold | 赵凯、赵杨 | Vue / UniApp / H5 | RuoYi-Vue-Pro / Spring Boot | [Business-Unit-for-Gaokao](https://github.com/Business-Unit-for-Gaokao) | 暂时 Hold；保留原有内容、直播、知识、线索和咨询资产，不安排当前投入。 |
 | MCN/KOL ERPNext 架构 | 待重新确认 | 赵凯、赵杨 | ERPNext/Frappe Desk | ERPNext / Frappe | [Business-Unit-for-MCN-KOL](https://github.com/Business-Unit-for-MCN-KOL) | 历史清单曾列为重点；本轮未重新确认当前状态和本周投入，先核实测试结论、关键流程与下一交付。 |
 | 新粮 ERP+CRM+供应链 | Hold | 赵凯、赵杨 | Vue / Vben Admin | RuoYi-Vue-Pro / Spring Boot | [Business-Unit-for-Xinliang](https://github.com/Business-Unit-for-Xinliang) | 当前 Hold；恢复前重新确认批复、范围、里程碑和验收。 |
@@ -32,12 +32,12 @@
 | OPC 创业项目 | Q4 不重要不紧急（暂缓） | 赵凯 | 待定 | 待定 | [Business-Unit-for-OPC](https://github.com/President-Office/project-time-management/issues/11) | 当前暂时搁置，尚未创建组织或 `requirements` 仓库；恢复前先重新确认方向、客户验证、投入上限和启动条件。 |
 | Enterprise Service 客户技术赋能 | 待重新确认 | 赵凯 / 相关业务负责人 | 按客户场景定 | AI / 数据 / 自动化 / 系统交付 | [Business-Unit-for-Enterprise-Service](https://github.com/Business-Unit-for-Enterprise-Service) | 历史记录包括节能、政策、信易贷三个部分；本轮未重新确认当前主线、里程碑和投入，不纳入本周承诺。 |
 | Platform / Yudao 能力固化 | Hold | 赵凯 / 相关业务负责人 | Yudao Admin / Vue | Yudao / Spring Boot | [Business-Unit-for-Platform](https://github.com/Business-Unit-for-Platform) | 暂时 Hold；不安排当前投入，恢复时再确认 Yudao 基线、Codegen、Clone/重构流程和交付接口。 |
-| 量化交易及其他服务器 | 阻塞：先解决办公室 Wi-Fi | 赵凯、赵杨 | 服务器 / 运维 | Python Quant / 系统运维 | [Business-Unit-for-Stock](https://github.com/Business-Unit-for-Stock) | 当前先处理办公室 Wi-Fi 问题；网络恢复并确认稳定后，再检查交易服务、备份、访问和运行状态。 |
+| 量化交易及其他服务器 | 阻塞：办公室 Wi-Fi 待处理 | 赵凯、赵杨 | 服务器 / 运维 | Python Quant / 系统运维 | [Business-Unit-for-Stock](https://github.com/Business-Unit-for-Stock) | 先确认能否在取得邻居明确同意后临时使用其 Wi-Fi；确认网络稳定后，再判断交易服务、备份、访问和运行状态。 |
 | 同伴游 / 教练教师陪伴 + 券系统 | 计划推进，当前无时间容量 | 赵凯、赵杨 | Vue / UniApp / H5 | RuoYi-Vue-Pro / Spring Boot | [Business-Unit-for-Dating](https://github.com/Business-Unit-for-Dating) | 有意推进但目前没时间；先保留为待排期项目，不挤占当前承诺。恢复时重新确认会员、陪伴场景、券结算、核验和隐私 MVP。 |
 | Digital Cabin 数字方舱 | Q4 不重要不紧急（暂停） | 赵凯、赵杨 | Vue / TDesign / DataV | RuoYi / Java | [Business-Unit-for-Digital-Cabin](https://github.com/Business-Unit-for-Digital-Cabin) | 暂停项目，保留现有原型、平台、知识库和 Agent 资产。 |
 | Lingsure | 归档（暂停） | 赵凯、赵杨 | UniApp / H5 | 待定 | [Business-Unit-for-Lingsure](https://github.com/Business-Unit-for-Lingsure) | 暂停并归档；保留现有 UniApp 和部署资产，不安排投入。 |
 | 吉运宝 | 归档 | 赵凯、赵杨 | 网站 / 待定 | 待定 | [Business-Unit-for-Jiyunbao](https://github.com/Business-Unit-for-Jiyunbao) | 归档项目记录与官网资产，不安排当前投入。 |
-| BidScout 招投标情报（医疗项目） | 待与赵杨共同梳理 | 赵凯、赵杨 | 待定 | Python / AI Agent | [Business-Unit-for-BidScout](https://github.com/Business-Unit-for-BidScout) | 先共同过项目范围、当前状态、价值、下一交付和投入上限，再确认是否继续当前实现。 |
+| BidScout 招投标情报（爬虫项目，暂对应） | 最高战略重要性；待与赵杨梳理是否继续 | 赵凯、赵杨 | 待定 | Python / AI Agent | [Business-Unit-for-BidScout](https://github.com/Business-Unit-for-BidScout) | 用户确认爬虫项目最重要；先共同评估现状、价值、继续/暂停依据及投入边界，再决定是否推进实现。 |
 | Data Intelligence 能力中心 | Q2 重要不紧急（能力中心） | 赵凯 / 相关业务负责人 | 按业务场景定 | 平台/AI/自动化能力 | [Business-Unit-for-Data-Intelligence](https://github.com/Business-Unit-for-Data-Intelligence) | 负责数据治理、企业知识库、RAG、BI、指标体系和产业情报；作为独立可复用能力中心保留，AI 软件工厂已归档。 |
 | Automation 能力中心 | Q2 持续性工作（需定义首个场景） | 赵凯 / 相关业务负责人 | 按业务场景定 | 工作流、RPA、API 集成、企业机器人、文档自动化、低代码模板 | [Business-Unit-for-Automation](https://github.com/Business-Unit-for-Automation) | 先选择一个高频、规则明确、有明确负责人和验收标准的流程做需求定义与小范围验证；目前需求池仍是初始框架。 |
 | Consulting 交付方法论 | 暂停，保留方法论探索 | 赵凯 / 相关业务负责人 | 按业务场景定 | 咨询诊断、方案设计与交付治理 | [Business-Unit-for-Consulting](https://github.com/Business-Unit-for-Consulting) | 暂不启动额外方法论建设；现有需求池为骨架，方案蓝图库保留已形成的案例。具体方法论阶段见优先级清单。 |

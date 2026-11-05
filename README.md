@@ -2,7 +2,7 @@
 
 PeterKZhao 的轻量级项目时间管理入口。
 
-> 2026-11-04 更新项目状态：当前主业只有 OCP；副业/个人项目的进行中、Hold、受阻、待排期和归档状态见[项目四象限](priority-matrix/README.md)。
+> 2026-11-05 更新项目状态：当前主业只有 OCP；爬虫项目为最高战略重要性，Blue Parrot 招测有近期紧迫性；其他副业/个人项目按状态见[项目四象限](priority-matrix/README.md)。
 
 ## 分类
 

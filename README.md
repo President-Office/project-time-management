@@ -12,7 +12,7 @@ PeterKZhao 的轻量级项目时间管理入口。
 - [本职工作 / 主业跟进](official-work/README.md)
 - [重要紧急四象限](priority-matrix/README.md)
 - [每周真实容量与时间约束](weekly-capacity.md)
-- [阅读计划](reading-plan/README.md)
+- [个人学习规划（学习方向与方法）](https://github.com/PeterKZhao/myself/blob/main/docs/growth/%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92.md)
 
 ## 使用原则
 

@@ -9,9 +9,35 @@
     :root { --bg:#08090a; --panel:#0f1011; --border:rgba(255,255,255,.09); --text:#f7f8f8; --silver:#d0d6e0; --muted:#8a8f98; --accent:#7170ff; --q1:#ff5c7a; --q2:#7170ff; --q3:#f5a524; --q4:#6b7280; --side:#10b981; --work:#38bdf8; }
     *{box-sizing:border-box} body{margin:0;font-family:Inter,system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;color:var(--text);background:radial-gradient(circle at 22% 8%,rgba(113,112,255,.22),transparent 28%),linear-gradient(180deg,#08090a,#0b0c0e 52%,#08090a);min-height:100vh} a{color:inherit;text-decoration:none} .shell{width:min(1240px,calc(100% - 28px));margin:0 auto} header{position:sticky;top:0;z-index:20;border-bottom:1px solid rgba(255,255,255,.055);background:rgba(8,9,10,.78);backdrop-filter:blur(18px)} .nav{min-height:64px;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:12px 0} .brand{display:flex;align-items:center;gap:10px;font-weight:600} .mark{width:28px;height:28px;border-radius:8px;background:linear-gradient(135deg,var(--accent),var(--q1))} .nav-links{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end} .nav-links a{color:var(--silver);font-size:13px;padding:8px 10px;border-radius:999px} .hero{padding:64px 0 28px} .eyebrow,.pill{display:inline-flex;align-items:center;color:var(--silver);border:1px solid var(--border);background:rgba(255,255,255,.025);padding:7px 11px;border-radius:999px;font-size:13px} .dot{width:7px;height:7px;border-radius:50%;background:var(--side);margin-right:8px} h1{margin:22px 0 14px;max-width:920px;font-size:clamp(40px,7vw,78px);line-height:.96;letter-spacing:-1.6px;font-weight:520} .lead{max-width:820px;color:var(--muted);font-size:clamp(16px,2vw,19px);line-height:1.7;margin:0} .legend{display:flex;gap:10px;flex-wrap:wrap;margin-top:24px} .axis-wrap{position:relative;padding:38px 0 24px} .axis-label{position:absolute;color:var(--silver);font-size:13px;background:rgba(8,9,10,.9);border:1px solid var(--border);border-radius:999px;padding:8px 12px;z-index:3} .y-high{top:0;left:50%;transform:translateX(-50%)} .y-low{bottom:-12px;left:50%;transform:translateX(-50%);color:var(--muted)} .x-low{left:0;top:50%;transform:translateY(-50%);color:var(--muted)} .x-high{right:0;top:50%;transform:translateY(-50%)} .matrix{position:relative;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:repeat(2,minmax(300px,auto));border:1px solid var(--border);border-radius:28px;overflow:hidden;background:rgba(255,255,255,.018)} .matrix:before{content:'';position:absolute;left:50%;top:0;width:1px;height:100%;background:rgba(255,255,255,.18);z-index:2} .matrix:after{content:'';position:absolute;left:0;top:50%;height:1px;width:100%;background:rgba(255,255,255,.18);z-index:2} .quadrant{padding:20px;min-height:300px} .q2{background:radial-gradient(circle at 100% 0%,rgba(113,112,255,.16),transparent 48%)} .q1{background:radial-gradient(circle at 0 0,rgba(255,92,122,.16),transparent 48%)} .q4{background:radial-gradient(circle at 100% 100%,rgba(107,114,128,.13),transparent 45%)} .q3{background:radial-gradient(circle at 0 100%,rgba(245,165,36,.12),transparent 45%)} .q-head{display:flex;justify-content:space-between;gap:12px;margin-bottom:16px} .q-name{font-size:18px;font-weight:600} .q-meta{color:var(--muted);font-size:12px} .project-list{display:flex;flex-wrap:wrap;gap:10px} .project-chip{display:inline-flex;align-items:center;gap:7px;max-width:100%;padding:10px 12px;border-radius:999px;border:1px solid rgba(255,255,255,.055);background:rgba(255,255,255,.04);font-size:13px;font-weight:520} .project-chip:before{content:'';width:7px;height:7px;border-radius:50%} .side:before{background:var(--side)} .work:before{background:var(--work)} .section-title{margin:48px 0 14px} .section-title h2{margin:0;font-size:32px} .section-title p{margin:6px 0 0;color:var(--muted);font-size:14px} .details-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px} .detail-card,.panel{border:1px solid var(--border);background:rgba(255,255,255,.032);border-radius:18px;padding:16px} .detail-top{display:flex;justify-content:space-between;gap:10px;margin-bottom:10px} .detail-title{font-size:15px;font-weight:600} .badges{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end} .badge{font-size:11px;border-radius:999px;padding:4px 7px;border:1px solid var(--border);color:var(--silver)} .badge.side{color:#d1fae5} .badge.work{color:#e0f2fe} .badge.q1{color:#ffe4ea} .badge.q2{color:#eef0ff} .badge.q4{color:#e5e7eb} .reason,.next{margin:0;color:var(--muted);font-size:13px;line-height:1.6} .next{color:var(--silver);margin-top:8px} .label{color:#62666d;font-size:10.5px;text-transform:uppercase;letter-spacing:.04em} .advice{display:grid;grid-template-columns:1.15fr .85fr;gap:16px;margin:34px 0 54px} ol,ul{margin:0;padding-left:20px;color:var(--silver);line-height:1.75;font-size:14px} footer{padding:10px 0 44px;color:#62666d;font-size:13px} code{background:rgba(113,112,255,.12);border-radius:6px;padding:1px 5px} @media(max-width:960px){.x-low,.x-high{display:none}.matrix{grid-template-columns:1fr}.matrix:before,.matrix:after{display:none}.details-grid,.advice{grid-template-columns:1fr}}
   </style>
+  <style>
+    .schedule-note{max-width:900px;color:var(--muted);font-size:14px;line-height:1.7;margin:6px 0 16px}
+    .schedule-scroll{overflow-x:auto;border:1px solid var(--border);border-radius:16px;background:rgba(255,255,255,.025)}
+    .schedule{width:100%;min-width:1050px;border-collapse:collapse;font-size:12px;line-height:1.55}
+    .schedule th,.schedule td{padding:12px 10px;text-align:left;vertical-align:top;border-bottom:1px solid var(--border);border-right:1px solid var(--border)}
+    .schedule thead th{position:sticky;top:0;background:#17181b;color:var(--silver);font-weight:600}
+    .schedule tbody th{width:130px;color:var(--silver);font-weight:600;background:rgba(255,255,255,.025);white-space:nowrap}
+    .schedule tr:last-child th,.schedule tr:last-child td{border-bottom:0}
+    .schedule th:last-child,.schedule td:last-child{border-right:0}
+    .schedule .fixed{color:var(--text)}
+    .schedule .flexible{color:var(--muted)}
+    .resource-table-wrap{overflow-x:auto;border:1px solid var(--border);border-radius:16px;background:rgba(255,255,255,.025)}
+    .resource-table{width:100%;min-width:620px;border-collapse:collapse;font-size:13px;line-height:1.55}
+    .resource-table th,.resource-table td{padding:10px 12px;text-align:left;border-bottom:1px solid var(--border)}
+    .resource-table th{color:var(--silver);font-weight:600}
+    .resource-table td{color:var(--muted)}
+    .resource-table tr:last-child td{border-bottom:0}
+    .resource-table a,.resource-link{color:var(--silver);text-decoration:underline;text-decoration-color:rgba(255,255,255,.3);text-underline-offset:3px}
+    .resource-table a:hover,.resource-link:hover{color:var(--text);text-decoration-color:var(--text)}
+    .resource-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+    .resource-card h3{margin:0 0 8px;font-size:16px}
+    .resource-card p{margin:0;color:var(--muted);font-size:13px;line-height:1.65}
+    .resource-card .resource-link{display:inline-block;margin-top:12px;font-size:13px}
+    @media(max-width:700px){.schedule{min-width:980px}.schedule th,.schedule td{padding:10px 8px}}
+    @media(max-width:700px){.resource-grid{grid-template-columns:1fr}}
+  </style>
 </head>
 <body>
-  <header><div class="shell nav"><a class="brand" href="#top"><span class="mark"></span><span>项目组合状态看板</span></a><nav class="nav-links"><a href="#matrix">状态总览</a><a href="#details">项目详情</a><a href="#advice">本周建议</a><a href="#pending">暂缓记录</a><a href="#reading">学习计划</a><a href="github-organization-inventory.md">组织清单</a><a href="priority-matrix/README.md">Markdown 清单</a><a href="https://github.com/President-Office/project-time-management">GitHub</a></nav></div></header>
+  <header><div class="shell nav"><a class="brand" href="#top"><span class="mark"></span><span>项目组合状态看板</span></a><nav class="nav-links"><a href="#matrix">状态总览</a><a href="#details">项目详情</a><a href="#schedule">周时间表</a><a href="#organizations">组织清单</a><a href="#documents">Markdown 清单</a><a href="#advice">本周建议</a><a href="#pending">暂缓记录</a><a href="#reading">学习计划</a><a href="https://github.com/President-Office/project-time-management">GitHub</a></nav></div></header>
   <main id="top" class="shell">
     <section class="hero"><div class="eyebrow"><span class="dot"></span>2026-11-05 · 当前主业：OCP · 爬虫最高战略重要性，Blue Parrot 招测近期紧迫</div><h1>项目组合状态看板</h1><p class="lead">当前主业只有 OCP。副业与个人项目按明确的下一步和真实容量安排；Hold、暂停和归档项目不默认进入本周计划。详细状态以项目四象限 Markdown 为准。</p><div class="legend"><span class="pill">本职工作</span><span class="pill">副业 / BU</span><span class="pill">近期行动</span><span class="pill">待确认 / 受阻</span><span class="pill">Hold / 归档</span></div></section>
     <section id="matrix" class="axis-wrap">
@@ -58,6 +84,65 @@
         <article id="fe-skill" class="detail-card"><div class="detail-top"><div class="detail-title">FE Skill Building</div><div class="badges"><span class="badge work">本职</span><span class="badge">已归档</span></div></div><p class="reason">保留原由 Conor 负责的历史记录。</p><p class="next"><span class="label">Next</span> 当前不纳入主业排期；如重启，再确认扫描范围与责任。</p></article>
         <article id="adf" class="detail-card"><div class="detail-top"><div class="detail-title">Azure Data Factory (ADF)</div><div class="badges"><span class="badge work">本职</span><span class="badge">已归档</span></div></div><p class="reason">历史上用于 IaaS 到 PaaS 的数据同步；当前已从跟进列表归档。</p><p class="next"><span class="label">Next</span> 如重新启动，再确认账号申请、审批路径和技术方案。</p></article>
       </div></section>
+    <section id="schedule">
+      <div class="section-title"><h2>每周时间表</h2><p class="schedule-note">时间底表展示已知约束，待确认内容仍需按实际填写；这不是项目排期。核心时段外可能仍在处理主业，不能把空白直接当作个人可用时间。手机上可横向滚动查看整周。</p></div>
+      <div class="schedule-scroll">
+        <table class="schedule">
+          <thead><tr><th scope="col">时段</th><th scope="col">周一</th><th scope="col">周二</th><th scope="col">周三</th><th scope="col">周四</th><th scope="col">周五</th><th scope="col">周六</th><th scope="col">周日</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">07:00–09:30</th><td class="flexible">起床时间、晨间安排待填</td><td class="flexible">起床时间、晨间安排待填</td><td class="flexible">起床时间、晨间安排待填</td><td class="flexible">起床时间、晨间安排待填</td><td class="flexible">起床时间、晨间安排待填</td><td class="flexible">起床及晨间安排待填</td><td class="flexible">起床及晨间安排待填</td></tr>
+            <tr><th scope="row">09:30–10:30</th><td class="fixed">09:30–10:00例会；其余通常为工作核心时段</td><td class="fixed">09:30–10:00例会；其余通常为工作核心时段</td><td class="fixed">09:30–10:00例会；其余通常为工作核心时段</td><td class="fixed">09:30–10:00例会；其余通常为工作核心时段</td><td class="fixed">09:30–10:00例会；其余通常为工作核心时段</td><td class="flexible">待填</td><td class="flexible">待填</td></tr>
+            <tr><th scope="row">10:30–12:00</th><td class="flexible">弹性工作/实际安排待填</td><td class="flexible">弹性工作/实际安排待填</td><td class="flexible">弹性工作/实际安排待填</td><td class="flexible">弹性工作/实际安排待填</td><td class="flexible">弹性工作/实际安排待填</td><td class="flexible">家务、家庭或休息待填</td><td class="fixed">家庭安排</td></tr>
+            <tr><th scope="row">12:00–14:00</th><td class="fixed">午休保护时段；具体时间待填</td><td class="fixed">午休保护时段；具体时间待填</td><td class="fixed">午休保护时段；具体时间待填</td><td class="fixed">午休保护时段；具体时间待填</td><td class="fixed">午休保护时段；具体时间待填</td><td class="flexible">午餐、休息及家务待填</td><td class="fixed">午餐、家庭安排及休息待填</td></tr>
+            <tr><th scope="row">14:00–15:00</th><td class="flexible">弹性工作/实际安排待填</td><td class="flexible">弹性工作/实际安排待填</td><td class="flexible">弹性工作/实际安排待填</td><td class="flexible">弹性工作/实际安排待填</td><td class="flexible">弹性工作/实际安排待填</td><td class="flexible">家务、家庭或休息待填</td><td class="fixed">家庭安排</td></tr>
+            <tr><th scope="row">15:00–17:00</th><td class="fixed">通常为工作核心时段</td><td class="fixed">通常为工作核心时段</td><td class="fixed">通常为工作核心时段</td><td class="fixed">通常为工作核心时段；每月第一周周四17:00另有会议</td><td class="fixed">通常为工作核心时段</td><td class="flexible">家务、家庭或休息待填</td><td class="fixed">家庭安排</td></tr>
+            <tr><th scope="row">17:00–19:00</th><td class="flexible">工作是否延续、晚餐及其他安排待填</td><td class="flexible">工作是否延续、晚餐及其他安排待填</td><td class="flexible">工作是否延续、晚餐及其他安排待填</td><td class="flexible">工作/会议是否延续及晚餐安排待填</td><td class="flexible">工作是否延续、晚餐及其他安排待填</td><td class="flexible">家务、晚餐及家庭安排待填</td><td class="fixed">家庭安排</td></tr>
+            <tr><th scope="row">19:00–21:30</th><td class="fixed">陪孩子写作业至少半小时；其余安排待填，工作可能延续</td><td class="fixed">陪孩子写作业至少半小时；其余安排待填，工作可能延续</td><td class="fixed">陪孩子写作业至少半小时；其余安排待填，工作可能延续</td><td class="fixed">陪孩子写作业至少半小时；其余安排待填，工作可能延续</td><td class="fixed">陪孩子写作业至少半小时；其余安排待填，工作可能延续</td><td class="fixed">陪孩子写作业至少半小时；其余安排待填</td><td class="fixed">陪孩子写作业至少半小时；以家庭时间为主</td></tr>
+            <tr><th scope="row">21:30–24:00</th><td class="flexible">工作是否继续、个人休息及实际结束时间待观察；不预排项目</td><td class="flexible">工作是否继续、个人休息及实际结束时间待观察；不预排项目</td><td class="flexible">工作是否继续、个人休息及实际结束时间待观察；不预排项目</td><td class="flexible">工作是否继续、个人休息及实际结束时间待观察；不预排项目</td><td class="flexible">工作是否继续、个人休息及实际结束时间待观察；不预排项目</td><td class="flexible">工作/休息及实际安排待填；不预排项目</td><td class="fixed">家庭、休息安排待填；不排项目</td></tr>
+            <tr><th scope="row">睡眠</th><td class="flexible">通常约00:00–07:00/08:00；实际时间待观察</td><td class="flexible">通常约00:00–07:00/08:00；实际时间待观察</td><td class="flexible">通常约00:00–07:00/08:00；实际时间待观察</td><td class="flexible">通常约00:00–07:00/08:00；实际时间待观察</td><td class="flexible">通常约00:00–07:00/08:00；实际时间待观察</td><td class="flexible">实际入睡/起床时间待观察</td><td class="flexible">实际入睡/起床时间待观察</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="schedule-note">周一通常工作较忙；每周约三个晚上可能在21:30前回家，但具体星期和工作是否结束尚待观察。整段午休受保护；周六家务和家庭安排按当周实际补充。</p>
+    </section>
+    <section id="organizations">
+      <div class="section-title"><h2>GitHub 组织清单</h2><p class="schedule-note">组织与仓库数量快照（2026-09-26）；点击组织名称可查看其 GitHub 仓库。核心仓库详情见完整清单。</p></div>
+      <div class="resource-table-wrap">
+        <table class="resource-table">
+          <thead><tr><th scope="col">组织</th><th scope="col">活跃仓库</th><th scope="col">私有仓库</th></tr></thead>
+          <tbody>
+            <tr><td><a href="https://github.com/Business-Unit-for-Gaokao">Business-Unit-for-Gaokao</a></td><td>31</td><td>21</td></tr>
+            <tr><td><a href="https://github.com/Business-Unit-for-Stock">Business-Unit-for-Stock</a></td><td>26</td><td>4</td></tr>
+            <tr><td><a href="https://github.com/Business-Unit-for-Video">Business-Unit-for-Video</a></td><td>20</td><td>12</td></tr>
+            <tr><td><a href="https://github.com/Business-Unit-for-MCN-KOL">Business-Unit-for-MCN-KOL</a></td><td>5</td><td>4</td></tr>
+            <tr><td><a href="https://github.com/Business-Unit-for-Debet">Business-Unit-for-Debet</a></td><td>7</td><td>6</td></tr>
+            <tr><td><a href="https://github.com/Business-Unit-for-Digital-Cabin">Business-Unit-for-Digital-Cabin</a></td><td>7</td><td>7</td></tr>
+            <tr><td><a href="https://github.com/Business-Unit-for-Lingsure">Business-Unit-for-Lingsure</a></td><td>5</td><td>4</td></tr>
+            <tr><td><a href="https://github.com/President-Office">President-Office</a></td><td>9</td><td>6</td></tr>
+            <tr><td><a href="https://github.com/Business-Unit-for-Enterprise-Service">Business-Unit-for-Enterprise-Service</a></td><td>9</td><td>8</td></tr>
+            <tr><td><a href="https://github.com/Business-Unit-for-AI-Platform">Business-Unit-for-AI-Platform</a></td><td>11</td><td>5</td></tr>
+            <tr><td><a href="https://github.com/Business-Unit-for-Platform">Business-Unit-for-Platform</a></td><td>14</td><td>2</td></tr>
+            <tr><td><a href="https://github.com/Business-Unit-for-Data-Intelligence">Business-Unit-for-Data-Intelligence</a></td><td>3</td><td>2</td></tr>
+            <tr><td><a href="https://github.com/Business-Unit-for-Automation">Business-Unit-for-Automation</a></td><td>3</td><td>2</td></tr>
+            <tr><td><a href="https://github.com/Business-Unit-for-Consulting">Business-Unit-for-Consulting</a></td><td>4</td><td>3</td></tr>
+            <tr><td><a href="https://github.com/Business-Unit-for-Jiyunbao">Business-Unit-for-Jiyunbao</a></td><td>4</td><td>3</td></tr>
+            <tr><td><a href="https://github.com/Business-Unit-for-Xinliang">Business-Unit-for-Xinliang</a></td><td>7</td><td>6</td></tr>
+            <tr><td><a href="https://github.com/Business-Unit-for-BidScout">Business-Unit-for-BidScout</a></td><td>4</td><td>2</td></tr>
+            <tr><td><a href="https://github.com/Business-Unit-for-Dating">Business-Unit-for-Dating</a></td><td>3</td><td>2</td></tr>
+            <tr><td><a href="https://github.com/Business-Unit-for-Blue-Parrot">Business-Unit-for-Blue-Parrot</a></td><td>4</td><td>4</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="schedule-note"><a class="resource-link" href="https://github.com/President-Office/project-time-management/blob/main/github-organization-inventory.md" target="_blank" rel="noopener noreferrer">在 GitHub 查看完整组织与核心仓库清单</a></p>
+    </section>
+    <section id="documents">
+      <div class="section-title"><h2>项目与管理资料</h2><p>先在当前 Dashboard 内查看；Markdown 原文在新标签页打开，不会离开看板。</p></div>
+      <div class="resource-grid">
+        <article class="detail-card resource-card"><h3>重要紧急四象限</h3><p>当前项目状态、优先级判断及下一步已在本页状态总览和项目详情中展示。</p><a class="resource-link" href="#matrix">回到四象限总览</a><br><a class="resource-link" href="https://github.com/President-Office/project-time-management/blob/main/priority-matrix/README.md" target="_blank" rel="noopener noreferrer">在新标签页查看 Markdown 原文</a></article>
+        <article class="detail-card resource-card"><h3>每周容量与时间约束</h3><p>周时间表已嵌入本页；容量基线、两周观察方法和可填写模板保留在 Markdown 文档。</p><a class="resource-link" href="#schedule">查看周时间表</a><br><a class="resource-link" href="https://github.com/President-Office/project-time-management/blob/main/weekly-capacity.md" target="_blank" rel="noopener noreferrer">在新标签页查看容量文档</a></article>
+        <article class="detail-card resource-card"><h3>GitHub 组织清单</h3><p>组织数量快照已在本页展示；各组织的核心仓库信息保留在清单原文中。</p><a class="resource-link" href="#organizations">查看组织概览</a><br><a class="resource-link" href="https://github.com/President-Office/project-time-management/blob/main/github-organization-inventory.md" target="_blank" rel="noopener noreferrer">在新标签页查看 Markdown 原文</a></article>
+      </div>
+    </section>
     <section id="advice" class="advice"><div class="panel"><h2>优先级判断</h2><ol><li>主业当前只有 OCP，作为固定主业基线单独管理。</li><li>爬虫项目是副业/个人项目中最高战略重要性事项；下一步与赵杨梳理并决定是否继续及投入边界。</li><li>Blue Parrot 招募测试人员有近期紧迫性，尽快明确招聘与验收步骤。</li><li>明策投标由赵杨执行；本人只在约定的关键节点评审或协助。</li><li>英语长期发展重点考虑英语角等真实交流方式；时间安排待讨论。</li><li>Wi-Fi 先征得邻居明确同意后再尝试临时接入；其他 Hold、暂停和归档项目不默认占当前投入。</li></ol></div><div class="panel"><h2>状态说明</h2><ul><li><strong>最高战略重要性</strong>：代表长期价值判断，不等于立即扩建。</li><li><strong>近期紧迫</strong>：尽快推进明确的短期事项，但不代表所有工作并行。</li><li><strong>待确认 / 受阻</strong>：先解除不确定因素或阻塞，再决定后续投入。</li><li><strong>Hold / 归档</strong>：保留记录，不默认占用当前时间。</li><li><strong>本职与副业</strong>：分开管理；实际安排先受真实容量约束。</li></ul></div></section>
     <section id="pending" class="panel"><h2>暂缓项目 / 开放记录</h2><p class="reason">OPC 是个人创业项目，目前暂时搁置；不与本职工作的 OCP（MCS -> OCP Claim 全生命周期迁移）混用。</p><p class="next"><span class="label">Next</span> 保留 <a href="https://github.com/President-Office/project-time-management/issues/11">Issue #11</a> 项目记录，恢复前重新评估方向、客户验证、投入上限和启动条件。</p></section>
     <section id="reading"><div class="section-title"><h2>个人学习方向</h2><p>学习方法与方向保存在个人成长档案中；是否投入以及时间安排，结合整体优先级和真实容量另行讨论。<a href="https://github.com/PeterKZhao/myself/blob/main/docs/growth/%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92.md">查看个人学习规划</a></p></div><div class="details-grid">
